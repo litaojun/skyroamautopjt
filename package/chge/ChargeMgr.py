@@ -15,6 +15,7 @@ class ChargeMgr(AddSim):
         SelenuieWeb.__init__(self)
         self.addlayout = elementTabLayout(u'E:\kankan\VaCache\页面布局\套餐管理\套餐资费信息.xlsx',u'新增资费')
         self.addlayout.initElementData()
+        print "add line"
     def enter_NewCharge_Win(self):
         #addbut = self.browser.find_element_by_css_selector("div[class=\" x-panel x-border-panel\"] div[class=\" x-portal-column x-column\"]>div[class=\" x-panel x-portlet\"]>div.x-panel-bwrap div[class=\"x-panel-tbar x-panel-tbar-noheader\"] button")
         addbut = getObjByTagName(self.browser,'find_element_by_css_selector','packagemanage00001')

@@ -16,6 +16,8 @@ class ChargeMgr(AddSim):
         self.addlayout = elementTabLayout(u'E:\kankan\VaCache\页面布局\套餐管理\套餐资费信息.xlsx',u'新增资费')
         self.addlayout.initElementData()
         print "add line"
+        self.addlayout = elementTabLayout(u'E:\kankan\VaCache\椤甸潰甯冨眬\濂楅绠＄悊\濂楅璧勮垂淇℃伅.xlsx',u'鏂板璧勮垂')
+        self.addlayout.initElementData()
     def enter_NewCharge_Win(self):
         #addbut = self.browser.find_element_by_css_selector("div[class=\" x-panel x-border-panel\"] div[class=\" x-portal-column x-column\"]>div[class=\" x-panel x-portlet\"]>div.x-panel-bwrap div[class=\"x-panel-tbar x-panel-tbar-noheader\"] button")
         addbut = getObjByTagName(self.browser,'find_element_by_css_selector','packagemanage00001')

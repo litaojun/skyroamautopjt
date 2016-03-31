@@ -22,6 +22,7 @@ def getObjByTagName(partenObj,mothName,curTagname):
               print "erro"
               raise
 #智能等待
+
 def waitElementByTime(curdriver,driver,mothName,pathstr):
         methonRef = getattr(driver,mothName)
         wait = WebDriverWait(curdriver,30)

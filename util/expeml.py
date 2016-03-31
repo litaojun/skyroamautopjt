@@ -10,6 +10,7 @@ sys.setdefaultencoding('utf8')
 def test():
     pass
 
+
 #selenium2.0关于python的常用函数（一）
 #(2013-05-15 15:42:36)
 #转载▼

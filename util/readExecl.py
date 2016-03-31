@@ -9,6 +9,7 @@ class operExcel:
              self.getSheetDataList()
              self.initElementData()
              self.printData()
+             
          def getSheetDataList(self):
              nrows = self.curSheet.nrows
              datals = []

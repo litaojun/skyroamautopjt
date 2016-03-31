@@ -26,5 +26,5 @@ def waitElementByTime(curdriver,driver,mothName,pathstr):
         methonRef = getattr(driver,mothName)
         wait = WebDriverWait(curdriver,30)
         elm = wait.until(lambda x: x(pathstr))
-　       elm.click()
+        elm.click()
 
